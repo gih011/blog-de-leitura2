@@ -1,0 +1,119 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Georgia", serif;
+    background-color: #fffafc;
+    color: #2c2c2c;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #8e44ad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 40px;
+}
+
+section h2 {
+    color: #8e44ad;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+article {
+    background-color: #fdfdfd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 4px solid #8e44ad;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+article h3 {
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+    padding-left: 15px;
+    border-left: 4px solid #ccc;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f3f0f8;
+    color: #5e3370;
+}
+
+table td {
+    background-color: #fff;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
+/* Tamanho fixo para todas as imagens */
+img {
+    width: 100px;      /* define a largura fixa */
+    height: 150px;     /* define a altura fixa */
+    object-fit: cover; /* evita distorção, cortando o excesso */
+}
